@@ -224,7 +224,7 @@ section{
     border: 2px solid #9932CC;
     background-color: transparent;
     font-weight: 700;
-    box-shadow: 0 0 40px #077b32;
+    box-shadow: 0 0 40px #9932CC;
 }
 
 @media (max-width:884px) {
