@@ -63,3 +63,14 @@ function opentab(event,tabname){
     document.getElementById(tabname).classList.add("active-tab");
 }
     
+// Contact Form
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx-j9j_o4I589XHQFARoabPP265xleLfcE24d4qNb_AXzDbV5YGQv5ngjD3xhwpEA/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
