@@ -9,6 +9,7 @@
     <title>Lency Portfolio</title>
 </head>
 <body>
+<!----HOME SECTION----------------------------------------------------------------------------------------------------------------->
     <nav>
         <div class="nav-container">
             <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
@@ -16,20 +17,20 @@
             </div>
             <div class="links">
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#">About</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#">Skills</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#">Services</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#">Contact</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#portfolio">Portfolio</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+          </div>
+          <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
         </div>
-        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
-    </div>
         <div class="dropdown">
             <div class="links">
                 <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Skills</a>
-                <a href="#">Service</a>
-                <a href="#">Contact</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
                 <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
             </div>
         </div>
@@ -42,24 +43,158 @@
             <div class="content">
                 <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Lency</span></h1>
                 <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
-                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Crafting digital dreams into reality. As a passionate designer and developer, I blend artistry with technology to create immersive digital experiences. With a keen eye for detail and a love for innovation, I strive to push the boundaries of design and development. Let's collaborate to bring your vision to life.</p>
+                <br>
                 <div class="social-links">
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-behance"></i></a>
-                    
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
-                    
+                    <a href="https://www.linkedin.com/in/lency-preethi-suresh" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Lency05" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.behance.net/lencysuresh" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-behance"></i></a>  
                 </div>
-                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                
+                <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
                     <button>Hire me</button>
                 </div>
             </div>
         </div>
     </section>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({offset:0});
-    </script>
-    <script src="script.js"></script>
+    <!--------------------------------------------ABOUT SECTION ---------------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100"> <p>&nbsp;&nbsp;&nbsp;&nbsp;Transforming visions into vibrant realities. I am a dedicated designer and developer who harmonizes creativity with technology. My passion lies in crafting immersive digital experiences that captivate and inspire. With a meticulous eye for detail and a commitment to innovation, I aim to redefine the possibilities of design and development. Let’s work together to turn your ideas into stunning digital solutions.</p></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event,'skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab(event,'experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event,'education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Developer </span><br>Creating engaging websites and applications with precision.</li>
+                             <li><span>UI/UX Designer</span><br>Designing intuitive interfaces for enhanced user experiences.</li>
+                            <li><span>Graphic Designer </span><br>Crafting visually appealing designs for impactful branding.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-2024 </span><br>Research intern at CUSAT</li>
+                            <li><span>2023-2023 </span><br>frontend development intern at Edunet Foundation</li>
+        <!---               <li><span>UI/UX </span><br>Designing web/app interfaces</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 </span><br>MCA from GRD</li>
+                            <li><span>2022 </span><br>BCA from NCW</li>
+                            <li><span>2019 </span><br>HSE from Shri Mahaa school</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------SERVICE SECTION------------------------------------------------------------------------->
+    <div id="services"> 
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> Transforming ideas into stunning websites that captivate and engage users with seamless functionality and aesthetic appeal.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> Crafting intuitive app interfaces, eye-catching logos, and user-friendly registration pages that enhance user experience and brand identity.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brush"></i>
+                    <h2>Graphic Design</h2>
+                    <p> Designing memorable logos, striking posters, and vibrant social media banners that effectively communicate your brand's message and vision.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------PORTFOLIO---------------------------------------------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.png">
+                    <div class="layer">
+                        <h3>Animated Flex Cards</h3>
+                        <p> Explore the magic of changing seasons through dynamic flex cards. From spring blooms to winter frost, each card tells a visual story. Built with HTML and CSS. 🌸🌞🍂❄️</p>
+                        <a href="https://github.com/Lency05/Interactive_card_element"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg">
+                    <div class="layer">
+                        <h3> Registration Page</h3>
+                        <p> This design showcases a mobile app registration screen with a playful dog theme. The bright yellow background and adorable puppy images create a welcoming and engaging atmosphere. Overall, this design effectively combines functionality and visual appeal to create a delightful user experience.</p>
+                        <a href="https://www.behance.net/gallery/205972489/Pet_Portal"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.png">
+                    <div class="layer">
+                        <h3>Posters </h3>
+                        <p> This poster, crafted in Adobe Illustrator, effectively promotes an internship opportunity at Fusion Station and the overall design is clean, professional, and visually appealing, making it an effective tool for attracting potential interns.</p>
+                        <a href="https://www.behance.net/gallery/213030347/Hiring_Poster"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            
+        </div>
+    </div>
+    <!--------------------------------CONTACT------------------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class=""sub-title>Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>lencypreethisureh@gmail.com</p>
+               <!---<p><i class="fa fa-phone-square" aria-hidden="true"></i>"13744389579</p> -->
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/lency-preethi-suresh"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Lency05"><i class="fab fa-github"></i></a>
+                        <a href="https://www.behance.net/lencysuresh"><i class="fab fa-behance"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text",name="Name" placeholder="Your Name" required>
+                        <input type="email",name="email" placeholder="Your Email" required>
+                        <textarea name="Message",rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>  &copy; Lency Suresh.Crafting digital experiences with passion and creativity.All rights reserved.<!--<i class="fas fa-heart"></i> --> </p>
+        </div>
+    </div>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"> </script>
+
+<script>
+    AOS.init({offset:0});
+</script>
+<script src="script.js"></script>
+
 </body>
 </html>
