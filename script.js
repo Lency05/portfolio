@@ -65,7 +65,7 @@ function opentab(event,tabname){
     
 // Contact Form
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbx-j9j_o4I589XHQFARoabPP265xleLfcE24d4qNb_AXzDbV5YGQv5ngjD3xhwpEA/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxySBwYRlsPxa6tDPeszPme8EjWt3Znitoqozj2NTXKtkx74gvDBcBuHXJcYFJ-heIj/exec'
   const form = document.forms['submit-to-google-sheet']
 
   form.addEventListener('submit', e => {
