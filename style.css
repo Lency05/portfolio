@@ -577,6 +577,12 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
+#msg{
+    color: #9932CC;
+    margin-top: -20px;
+    display:block;
+}
+
 .copyright{
     width: 100%;
     text-align: center;
@@ -585,24 +591,11 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 }
+
 .copyright i{
     color: #9932CC;
 }
-/***css for small screen/
-@media only screen and (max-width: 600px){
-    #header{
-        background-image: url("phonebackground image.png");
-    }
-    .header-text{
-        margin-top: 100%;
-        font-size: 16px;
 
-    }
-}
 
-#msg{
-    color: #9932CC;
-    margin-top: -20px;
-    display:block;
-}
+
 
