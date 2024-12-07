@@ -554,8 +554,9 @@ section{
     font-weight: 700;
     box-shadow: 0 0 40px  #9932CC;
 }
-
-
+.contact-right .btn2{
+    margin-left: 300px;  
+}
 
 .contact-right form{
     width: 90%;
@@ -571,6 +572,7 @@ form input,form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
+
 form .btn2{
     padding:14px 60px;
     font-size: 18px;
