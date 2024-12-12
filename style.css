@@ -365,6 +365,20 @@ section{
     display: block;
 }
 
+@media (max-width:884px) {
+    .about-col-2{
+        display: flex;
+        flex-direction: column;
+    } 
+}
+           
+@media (max-width:440px){
+    .about-col-2{
+       padding: 20px;
+    }
+
+}
+
 /* SERVICE SECTION*/
 #services{
     padding: 40px 20px;
