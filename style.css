@@ -128,7 +128,7 @@ section{
 }
 
 .main-container .image{
-    width: 600px;
+    width: 200px;
     height: 80vh;
     border-radius: 100%;
    overflow: hidden;
@@ -646,6 +646,7 @@ form .btn2{
 .copyright i{
     color: #9932CC;
 }
+
 
 
 
