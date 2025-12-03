@@ -129,7 +129,7 @@ section{
 
 .main-container .image{
     width: 400px;
-    height: 60vh;
+    height: 80vh;
     border-radius: 100%;
    overflow: hidden;
     box-shadow: 0 0 50px #9932CC;
@@ -646,5 +646,6 @@ form .btn2{
 .copyright i{
     color: #9932CC;
 }
+
 
 
