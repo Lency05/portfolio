@@ -128,8 +128,8 @@ section{
 }
 
 .main-container .image{
-    width: 900px;
-    height: 60vh;
+    width: 800px;
+    height: 40vh;
     border-radius: 100%;
    overflow: hidden;
     box-shadow: 0 0 50px #9932CC;
@@ -648,6 +648,7 @@ form .btn2{
 }
 
 }
+
 
 
 
