@@ -331,7 +331,7 @@ section{
 
 
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 100%;
     color:#fff
 }
 .about-col-2 h1{
@@ -649,6 +649,7 @@ form .btn2{
 }
 
 }
+
 
 
 
