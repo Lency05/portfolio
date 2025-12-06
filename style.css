@@ -38,7 +38,7 @@ nav{
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    left: 15px;
+    right: 35px;
 }
 
 .logo span{
@@ -661,6 +661,7 @@ form .btn2{
 }
 
 }
+
 
 
 
