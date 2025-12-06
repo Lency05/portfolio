@@ -422,11 +422,11 @@ section{
     /* === 2.1 General Layout & Padding === */
     #about {
         /* Reduce overall side padding to utilize screen space, but keep some space */
-        padding: 10px 10px;
-        padding-top: 10px; /* Reduce top padding, start at 20px */
-        padding-bottom: 10px; 
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 5px 5px;
+        padding-top: 5px; /* Reduce top padding, start at 20px */
+        padding-bottom: 5px; 
+        padding-left: 5px;
+        padding-right: 5px;
     }
     
     .about-col-2 {
@@ -749,6 +749,7 @@ form .btn2{
 }
 
 }
+
 
 
 
