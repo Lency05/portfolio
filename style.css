@@ -127,7 +127,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left:10%;
+    padding-left:20%;
     gap: 80px;
 }
 
@@ -661,6 +661,7 @@ form .btn2{
 }
 
 }
+
 
 
 
