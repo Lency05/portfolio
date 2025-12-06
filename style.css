@@ -415,6 +415,53 @@ section{
     display: block;
 }
 
+@media (max-width: 800px) {
+    /* ------------------- ABOUT SECTION RESPONSIVE STYLES ------------------- */
+    
+    /* Center the section content and reduce padding */
+    #about {
+        padding: 30px 10px; 
+    }
+
+    /* Reduce the massive Sub-Title size for mobile */
+    .sub-title {
+        font-size: 50px; /* Reduced from 80px */
+        text-align: center;
+    }
+    
+    /* Ensure text aligns nicely and adjust font size */
+    .about-col-2 {
+        flex-basis: 100%;
+        text-align: left; /* Keep text left-aligned, but center the heading */
+    }
+
+    .about-col-2 p {
+        /* Reduce paragraph font size */
+        font-size: 1.1rem; /* Reduced from 160% */
+    }
+    
+    /* Condense and center the tab titles */
+    .tab-titles {
+        margin: 20px 0;
+        justify-content: center; /* Center the tabs below the content */
+    }
+
+    /* Reduce tab link font size and margin */
+    .tab-links {
+        font-size: 1.2rem; /* Reduced from 35px */
+        margin-right: 25px; /* Reduced space between tabs */
+    }
+    
+    /* Reduce font size inside the list items */
+    .tab-contents ul li {
+        font-size: 1rem; /* Reduced from 150% */
+    }
+    
+    /* Reduce the font size of the colored spans inside list items */
+    .tab-contents ul li span {
+        font-size: 1.2rem; /* Reduced from 25px */
+    }
+}
 
 
 /* SERVICE SECTION*/
@@ -685,6 +732,7 @@ form .btn2{
 }
 
 }
+
 
 
 
