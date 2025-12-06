@@ -278,6 +278,7 @@ section{
     }
 
     .social-links i{
+        display:inline-flex;
         margin-left:30px;
         width: 2.5rem;
         height: 2.5rem;
@@ -660,6 +661,7 @@ form .btn2{
 }
 
 }
+
 
 
 
