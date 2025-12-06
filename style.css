@@ -15,7 +15,7 @@ body{
     /*overflow: hidden;*/
     overflow-x: hidden;
     background-color: black;
-    max-width:100%;
+    max-width:100%;  /*desktop fit */
     
 }
 
@@ -130,7 +130,7 @@ section{
     justify-content: space-between;
     align-items: center;
     padding-left:20%;
-    gap: 80px;
+    gap: 90px;
 }
 
 .main-container .image{
@@ -663,6 +663,7 @@ form .btn2{
 }
 
 }
+
 
 
 
