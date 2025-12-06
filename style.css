@@ -263,6 +263,10 @@ section{
         height: auto; 
         padding-bottom: 50px; 
     }
+    .main-container .content .button {
+    /* Add vertical space above the button */
+    margin-top: 40px; 
+}
 }    
 
 @media (max-width:884px) {
@@ -681,6 +685,7 @@ form .btn2{
 }
 
 }
+
 
 
 
