@@ -415,54 +415,64 @@ section{
     display: block;
 }
 
-@media (max-width: 800px) {
-    /* ------------------- ABOUT SECTION RESPONSIVE STYLES ------------------- */
+/* small screen about section */
+@media (max-width: 600px) {
     
-    /* Center the section content and reduce padding */
+    /* === 2.1 General Layout & Padding === */
     #about {
-        padding: 30px 10px; 
-    }
-
-    /* Reduce the massive Sub-Title size for mobile */
-    .sub-title {
-        font-size: 50px; /* Reduced from 80px */
-        text-align: center;
+        /* Reduce overall side padding to utilize screen space, but keep some space */
+        padding: 30px 20px; 
     }
     
-    /* Ensure text aligns nicely and adjust font size */
     .about-col-2 {
+        /* Ensure it takes full width (already 100% in desktop, but confirms the layout) */
         flex-basis: 100%;
-        text-align: left; /* Keep text left-aligned, but center the heading */
+        
+        /* Remove text justification/alignment issues */
+        text-align: left; 
+    }
+    
+    /* === 2.2 Heading & Paragraph Sizing === */
+    .sub-title {
+        /* Significantly reduce the large heading size */
+        font-size: 40px; 
+        text-align: center; /* Center the "About Me" title */
+        margin-bottom: 20px;
     }
 
     .about-col-2 p {
-        /* Reduce paragraph font size */
-        font-size: 1.1rem; /* Reduced from 160% */
-    }
-    
-    /* Condense and center the tab titles */
-    .tab-titles {
-        margin: 20px 0;
-        justify-content: center; /* Center the tabs below the content */
+        /* Reduce paragraph font size for better readability on small screens */
+        font-size: 1.1rem; /* Equivalent to about 110% */
+        line-height: 1.6;
+        padding-left: 0; /* Remove unnecessary space created by &nbsp; in HTML */
     }
 
-    /* Reduce tab link font size and margin */
+    /* === 2.3 Tab Titles & Content === */
+    .tab-titles {
+        /* Reduce space above the tab links */
+        margin: 15px 0 25px; 
+        justify-content: center; /* Center the tabs group */
+    }
+
     .tab-links {
-        font-size: 1.2rem; /* Reduced from 35px */
-        margin-right: 25px; /* Reduced space between tabs */
+        /* Reduce the wide margin between "Skills," "Experience," etc. */
+        margin-right: 20px;
+        /* Reduce the large tab link font size */
+        font-size: 1rem; 
     }
     
-    /* Reduce font size inside the list items */
     .tab-contents ul li {
-        font-size: 1rem; /* Reduced from 150% */
+        /* Reduce bullet point text size */
+        font-size: 1rem;
     }
-    
-    /* Reduce the font size of the colored spans inside list items */
+
     .tab-contents ul li span {
-        font-size: 1.2rem; /* Reduced from 25px */
+        /* Reduce the size of the bold/colored span text */
+        font-size: 1.1rem;
+        display: block; /* Make the span take its own line for better stacking */
+        margin-bottom: 5px;
     }
 }
-
 
 /* SERVICE SECTION*/
 #services{
@@ -732,6 +742,7 @@ form .btn2{
 }
 
 }
+
 
 
 
