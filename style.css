@@ -630,6 +630,10 @@ form .btn2{
         font-size: 14px;
 
     }
+    .social-icons{
+    padding-left: 13%;
+    }
+    
     .tab-links{
         font-size: 16px;
         margin-right: 20px;
@@ -656,6 +660,7 @@ form .btn2{
 }
 
 }
+
 
 
 
