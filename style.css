@@ -422,11 +422,11 @@ section{
     /* === 2.1 General Layout & Padding === */
     #about {
         /* Reduce overall side padding to utilize screen space, but keep some space */
-        padding: 30px 20px;
-        padding-top: 20px; /* Reduce top padding, start at 20px */
-        padding-bottom: 30px; 
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 10px 10px;
+        padding-top: 10px; /* Reduce top padding, start at 20px */
+        padding-bottom: 10px; 
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .about-col-2 {
@@ -457,7 +457,7 @@ section{
     /* === 2.3 Tab Titles & Content === */
     .tab-titles {
         /* Reduce space above the tab links */
-        margin: 15px 0 25px; 
+        margin: 10px 0 15px; 
         justify-content: center; /* Center the tabs group */
     }
 
@@ -749,6 +749,7 @@ form .btn2{
 }
 
 }
+
 
 
 
