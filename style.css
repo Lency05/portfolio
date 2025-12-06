@@ -253,7 +253,17 @@ section{
         justify-content: center; 
         /* Ensure it's treated as a block for centering */
         display: flex;
-    }    
+    }
+    .main-container .content{
+        width: 70%;
+        text-align: center;
+    }
+    .content .typewriter{
+        font-size: 1.5rem;
+    }
+    .content h1{
+        font: size 2rem;
+    }
 }    
 
 @media (max-width:884px) {
@@ -672,6 +682,7 @@ form .btn2{
 }
 
 }
+
 
 
 
