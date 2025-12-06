@@ -21,6 +21,7 @@ nav{
     width: 100%;
     height: 10vh;
     position: sticky;
+    padding-left: 2%;
 }
 
 .nav-container{
@@ -124,8 +125,10 @@ section{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding-left:10%;
+    gap: 80px;
 }
 
 .main-container .image{
@@ -133,12 +136,12 @@ section{
     height: 70vh;
     border-radius: 100%;
    overflow: hidden;
-    box-shadow: 0 0 50px #9932CC;
+    box-shadow: 0 0 70px #9932CC;
 }
 
 .main-container .image img{
     width: 100%;
-    height: 100%;
+    height: 120%;
 }
 
 .main-container .image:hover{
@@ -161,12 +164,12 @@ section{
 
 .main-container .content{
     color: white;
-    width: 40%;
+    width: 50%;
     min-height: 100px;
 }
 
 .content h1{
-    font-size: clamp(1rem, 1rem + 5vw, 1.8rem);
+    font-size: clamp(4rem, 4rem + 7vw, 2.9rem);
 }
 
 .content h1 span{
@@ -175,7 +178,7 @@ section{
 }
 
 .content .typewriter{
-    font-size: clamp(1.5rem, 1rem + 5vw, 2.5rem);
+    font-size: clamp(2.8rem, 4rem + 8vw, 2.8rem);
     font-weight: 600;
 }
 
@@ -185,7 +188,7 @@ section{
 }
 
 .content p{
-    font-size: clamp(0.4rem , 0.2rem + 9vw, 1rem);
+    font-size: clamp(2.5rem , 2.5rem + 15vw, 4rem);
     margin: 10px 0;
 }
 
@@ -199,7 +202,7 @@ section{
     border: 0.2rem solid #9932CC;
     border-radius: 50%;
     color: #9932CC;
-    margin: 25px 20px;
+    margin: 0px 60px;
     font-size: 1.5rem;
     transition: 0.2s linear;
 }
@@ -212,16 +215,16 @@ section{
 }
 
 .content button{
-    width: 50%;
-    height: 6vh;
-    margin: 30px;
+    width: 60%;
+    height: 8vh;
+    margin: 20px;
     background-color: #9932CC;
     color: white;
     border: none;
     outline: none;
-    font-size: 120%;
+    font-size: 150%;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius: 6px;
     transition: 0.2s linear;
 }
 
@@ -310,7 +313,7 @@ section{
 /* About Section*/
 #about{
     
-    padding : 30px 0;
+    padding : 15px 0;
     background-color: #f7f7f729;
     color: #fff;
 }
@@ -338,9 +341,11 @@ section{
     color: #9932CC;
     text-shadow: 0 0 10px #9932CC;
 }
-
+.about-col-2 p{
+    font-size: 160%;
+}
 .sub-title{
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 600;
 
 }
@@ -350,7 +355,7 @@ section{
 }
 .tab-links{
     margin-right: 50px;
-    font-size:18px;
+    font-size:35px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -371,11 +376,12 @@ section{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
+    font-size: 150%;
     
 }
 .tab-contents ul li span{
     color: #9932CC;
-    font-size: 14px;
+    font-size: 25px;
 }
 .tab-contents{
     display: none;
@@ -547,6 +553,7 @@ section{
 }
 .social-icons{
     margin-top: 30px;
+    padding-left: 13%;
 }
 .social-icons a{
     text-decoration: none;
@@ -649,6 +656,7 @@ form .btn2{
 }
 
 }
+
 
 
 
