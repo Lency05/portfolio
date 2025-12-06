@@ -202,7 +202,7 @@ section{
     border: 0.2rem solid #9932CC;
     border-radius: 50%;
     color: #9932CC;
-    margin: 0px 60px;
+    margin: 0px 40px;
     font-size: 1.5rem;
     transition: 0.2s linear;
 }
@@ -661,6 +661,7 @@ form .btn2{
 }
 
 }
+
 
 
 
