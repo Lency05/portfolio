@@ -260,8 +260,9 @@ section{
         align-items: center;
         padding-left: 0;
         gap: 30px; 
-        height: auto; 
-        padding-bottom: 50px; 
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 25px; 
     }
     .main-container .content .button {
     /* Add vertical space above the button */
@@ -748,6 +749,7 @@ form .btn2{
 }
 
 }
+
 
 
 
