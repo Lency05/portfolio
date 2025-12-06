@@ -244,8 +244,17 @@ section{
     .about-col-2{
        padding: 20px;
     }
-
 }
+
+@media (max-width: 800px) { /*newly added*/
+     
+    /* Center the social links within the text content */
+    .social-links {
+        justify-content: center; 
+        /* Ensure it's treated as a block for centering */
+        display: flex;
+    }    
+}    
 
 @media (max-width:884px) {
     nav .logo{
@@ -663,6 +672,7 @@ form .btn2{
 }
 
 }
+
 
 
 
