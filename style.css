@@ -15,6 +15,7 @@ body{
     /*overflow: hidden;*/
     overflow-x: hidden;
     background-color: black;
+    max-width:100%;
     
 }
 
@@ -662,6 +663,7 @@ form .btn2{
 }
 
 }
+
 
 
 
