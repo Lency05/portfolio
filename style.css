@@ -421,7 +421,11 @@ section{
     /* === 2.1 General Layout & Padding === */
     #about {
         /* Reduce overall side padding to utilize screen space, but keep some space */
-        padding: 30px 20px; 
+        padding: 30px 20px;
+        padding-top: 20px; /* Reduce top padding, start at 20px */
+        padding-bottom: 30px; 
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
     .about-col-2 {
@@ -436,7 +440,8 @@ section{
     .sub-title {
         /* Significantly reduce the large heading size */
         font-size: 40px; 
-        text-align: center; /* Center the "About Me" title */
+        text-align: left; /* Center the "About Me" title */
+        margin-top: 0;
         margin-bottom: 20px;
     }
 
@@ -445,6 +450,7 @@ section{
         font-size: 1.1rem; /* Equivalent to about 110% */
         line-height: 1.6;
         padding-left: 0; /* Remove unnecessary space created by &nbsp; in HTML */
+        text-align: justify;
     }
 
     /* === 2.3 Tab Titles & Content === */
@@ -742,6 +748,7 @@ form .btn2{
 }
 
 }
+
 
 
 
