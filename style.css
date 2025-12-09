@@ -14,11 +14,20 @@ body{
     height: 100vh;
     /*overflow: hidden;*/
     overflow-x: hidden;
-    background-color: black;
-    max-width:100%;  /*desktop fit */
-    
+    background-color: transparent;
+    max-width:100%;  /*desktop fit */    
 }
-
+/* space backgroung*/
+#spaceCanvas {
+    position: fixed; /* Fixed position to cover the viewport and remain in place */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    z-index: -10; /* Pushes the canvas behind all portfolio content */
+}    
+    
 nav{
     width: 100%;
     height: 10vh;
@@ -418,43 +427,36 @@ section{
 
 /* small screen about section */
 @media (max-width: 600px) {
-    
-    /* === 2.1 General Layout & Padding === */
     #about {
-        /* Reduce overall side padding to utilize screen space, but keep some space */
         padding: 5px 5px;
-        padding-top: 5px; /* Reduce top padding, start at 20px */
+        padding-top: 5px; 
         padding-bottom: 5px; 
         padding-left: 5px;
         padding-right: 5px;
     }
     
     .about-col-2 {
-        /* Ensure it takes full width (already 100% in desktop, but confirms the layout) */
         flex-basis: 100%;
-        
-        /* Remove text justification/alignment issues */
         text-align: left; 
     }
     
-    /* === 2.2 Heading & Paragraph Sizing === */
+    /* Heading & Paragraph Sizing  */
     .sub-title {
-        /* Significantly reduce the large heading size */
         font-size: 40px; 
-        text-align: left; /* Center the "About Me" title */
+        text-align: left; 
         margin-top: 0;
         margin-bottom: 20px;
     }
 
     .about-col-2 p {
         /* Reduce paragraph font size for better readability on small screens */
-        font-size: 1.1rem; /* Equivalent to about 110% */
+        font-size: 1.1rem; 
         line-height: 1.6;
-        padding-left: 0; /* Remove unnecessary space created by &nbsp; in HTML */
+        padding-left: 0; 
         text-align: justify;
     }
 
-    /* === 2.3 Tab Titles & Content === */
+    /*  Tab Titles & Content */
     .tab-titles {
         /* Reduce space above the tab links */
         margin: 10px 0 15px; 
@@ -749,6 +751,7 @@ form .btn2{
 }
 
 }
+
 
 
 
