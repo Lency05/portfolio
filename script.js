@@ -1,5 +1,4 @@
 //space background
-//space background
 const canvas = document.querySelector('#spaceCanvas');
 
 if (canvas) {
@@ -85,8 +84,7 @@ function cancel(){
 
 const texts = [
     "DEVELOPER",
-    "DESIGNER",
-   
+    "DESIGNER",   
 ]
 
 let speed  =100;
@@ -155,5 +153,6 @@ function opentab(event,tabname){
         })
         .catch(error => console.error('Error!', error.message))
   })
+
 
 
