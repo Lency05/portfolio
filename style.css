@@ -146,8 +146,9 @@ section{
     width: 500px;
     height: 70vh;
     border-radius: 100%;
-   overflow: hidden;
+    overflow: hidden;
     box-shadow: 0 0 70px #9932CC;
+    background-color: black;    
 }
 
 .main-container .image img{
@@ -752,6 +753,7 @@ form .btn2{
 }
 
 }
+
 
 
 
